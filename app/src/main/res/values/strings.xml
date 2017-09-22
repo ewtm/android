@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Primeiro</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello Word</string>
+    <string name="titulo">Informe seu nome</string>
+    <string name="surpreenda_me">Surpreenda-me</string>
+    <string name="saudacao">Olá</string>
+</resources>
