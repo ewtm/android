@@ -1,5 +1,6 @@
 package com.example.policia.primeiro;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -31,9 +32,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void surpreenderUsuario(View v){
-        Editable texto = this.nomeEditText.getText();
-        String msg = saudacao +" " + texto.toString();
-        saudacaoTextView.setText(msg);
+        Intent intent = new Intent(SaudacaoActivity.ACAO_EXIBIR_SAUDACAO);
+        intent.addCategory(SaudacaoActivity.CATEGORIA_SAUDACAO);
+
+        String texto = this.nomeEditText.getText().toString();
+        intent.putExtra(SaudacaoActivity.EXTRA_NOME_USUARIO, texto);
+
+        startActivity(intent);
 
     }
 
