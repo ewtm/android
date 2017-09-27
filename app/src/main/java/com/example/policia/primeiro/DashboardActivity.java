@@ -1,6 +1,7 @@
 package com.example.policia.primeiro;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.View;
@@ -20,8 +21,17 @@ public class DashboardActivity  extends Activity{
     }
 
     public void selecionarOpcao(View view){
+        switch(view.getId()){
+            case R.id.nova_viagem:
+                startActivity(new Intent(this,ViagemActivity.class));
+                break;
+        }
+
+
         TextView textView = (TextView) view;
         String opcao = "Opçao : " + textView.getText().toString();
         Toast.makeText(this,opcao,Toast.LENGTH_SHORT).show();
+
+
     }
 }
