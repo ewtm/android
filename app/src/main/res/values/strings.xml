@@ -25,4 +25,16 @@
     <string name="salvar">Salvar</string>
     <string name="valor">Valor</string>
     <string name="data">Data</string>
+    <string name="descricao">Descriçao</string>
+    <string name="local">Local</string>
+    <string name="gastei">Gastei</string>
+    <string name="categoria">Categoria</string>
+
+    <string-array name="categoria_gasto">
+        <item>Alimentaçao</item>
+        <item>Combustível</item>
+        <item>Transporte</item>
+        <item>Hospedagem</item>
+        <item>Outros</item>
+    </string-array>
 </resources>
