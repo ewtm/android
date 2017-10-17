@@ -14,10 +14,11 @@
         android:textColor="@android:color/white"/>
 
     <LinearLayout
-        android:id="@+id/categoria"
+        android:id="@+id/cate_gastos"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@color/categoria_hospedagem">
 
         <TextView
             android:id="@+id/descricao"

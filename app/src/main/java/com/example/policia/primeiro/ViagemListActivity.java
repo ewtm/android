@@ -43,10 +43,6 @@ public class ViagemListActivity extends ListActivity  implements
                         de,para);
         setListAdapter(adapter);
         getListView().setOnItemClickListener(this);
-        /*setListAdapter(new ArrayAdapter<String>(this,
-                android.R.layout.simple_list_item_1, listarViagens()));
-        ListView listView = getListView();
-        listView.setOnItemClickListener(this);*/
 
 
     }

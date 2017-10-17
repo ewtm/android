@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<group android:id="@+id/group_delete">
+        <item
+            android:id="@+id/arquivo"
+            android:title="@string/arquivo"
+            />
+        <item
+            android:id="@+id/delete"
+            android:title="@string/remover"
+            android:icon="@android:drawable/ic_menu_delete"
+            />
+    </group>
+    <item
+        android:id="@+id/file"
+        android:title="File"
+        android:icon="@android:drawable/ic_menu_more"
+        >
+        <menu>
+            <item
+                android:id="@+id/novo"
+                android:title="Novo"
+                />
+            <item
+                android:id="@+id/abrir"
+                android:title="Abrir"
+                />
+        </menu>
+    </item>-->
+
+    <item
+        android:id="@+id/remover"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/remover"
+        />
+</menu>
