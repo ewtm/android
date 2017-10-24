@@ -7,17 +7,30 @@ import android.support.annotation.Nullable;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.Toast;
+
+import java.util.Calendar;
 
 /**
  * Created by policia on 11/10/2017.
  */
 
 public class ViagemActivity extends Activity {
+    private DataBaseHelper helper;
+    private EditText destino,quantidadePessoas, orcamento;
+    private RadioGroup radioGroup;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.nova_viagem);
+
+        Calendar calendar = Calendar.getInstance();
+        
+
     }
 
     @Override

@@ -88,12 +88,13 @@ public class GastoListActivity extends ListActivity implements AdapterView.OnIte
         super.onCreateContextMenu(menu, v, menuInfo);
     }
 
-    /*@Override
+    //invoca menu
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.gasto_menu,menu);
         return true;
-    }*/
+    }
 
     @Override
     public boolean onContextItemSelected(MenuItem item) {
