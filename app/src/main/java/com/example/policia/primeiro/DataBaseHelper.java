@@ -19,7 +19,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("create table viagem(_id integer primary key," +
+        db.execSQL("create table viagem(_id integer primary key auto_increment," +
                 "destino text,tipo_viagem integer,data_chegada date," +
                 "data_saida date, orcamento double," +
                 "quantidade_pessoas integer);");

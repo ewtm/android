@@ -3,6 +3,7 @@ package com.example.policia.primeiro;
 import android.app.Activity;
 import android.app.DatePickerDialog;
 import android.app.Dialog;
+import android.content.ContentValues;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.Menu;
@@ -71,6 +72,8 @@ public class GastoActivity extends Activity  {
         inflater.inflate(R.menu.gasto_menu,menu);
         return true;
     }
+
+
 
 }
 
